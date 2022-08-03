@@ -1,4 +1,4 @@
-variable "name_prefix" {
+variable "name" {
   description = "Name prefix for resources on AWS"
 }
 
@@ -54,7 +54,7 @@ variable "min_cpu_period" {
 
 variable "scale_target_max_capacity" {
   description = "The max capacity of the scalable target"
-  default     = 5
+  default     = 2
   type        = number
 }
 
